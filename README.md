@@ -25,5 +25,11 @@ pip install -r requirements.txt
 ## Executing the scripts 
 
 After installing the python packages, the scripts to extract tables using only local code and models (pdfplumber, Docling, PyMuPDF, PyMuPDF4LLM) should work immediately. 
+See instructions within each script file.
 
 Those using external services (AWS Textract, AWS Bedrock Data Automation, Unstructured) need an account to be set up in the corresponding services and some configuration. See each script for details. Note that, for each service, some environmental variables should be defined in an .env file (see example.env).    
+
+
+xxx add warning about no responsibility of using these scripts xxx 
+
+xxx add license xxx 
