@@ -1,35 +1,64 @@
 # Table extraction blog data and scripts
 
-This repo contains the example data and table extraction scripts I used when writing these blogs about table data extractions: 
+Companion repository for blog posts on PDF table extraction. It includes sample PDFs, ground-truth spreadsheets, and scripts to reproduce the results discussed in the articles.
 
-xxx add links xxx
+**Blog posts:** links coming soon.
 
-You can use it to reproduce the same results shown in the blogs. 
+## Repository layout
 
-The table extraction output I obtained by running the script on my pc are in the blog_output folder. 
+```
+test_pdfs/                       # test PDFs used in the blogs
+original_csvs/                   # ground-truth Numbers files and CSV
+extract_tables_*.py              # table extraction scripts
+env_utils.py                     # shared .env loader
+example.env                      # environment variable template
+{tool}_output/                   # tool output directories (gitignored)
+blog_output/                     # tool output files shown in the blog  
+```
 
-## Requirements 
+## Requirements
 
-- python 3.12 (this is the version I used. The code may work with older/newer versions)
+- Python 3.12 (the version used to prepare the blog entries; other versions may work)
 
 ## Installation
 
-MacOS / Linux 
+macOS / Linux:
 
-````
+```bash
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-````
+```
 
-## Executing the scripts 
+## Configuration for external services
 
-After installing the python packages, the scripts to extract tables using only local code and models (pdfplumber, Docling, PyMuPDF, PyMuPDF4LLM) should work immediately. 
-See instructions within each script file.
+Cloud and API scripts read credentials from a `.env` file in the repository root.
 
-Those using external services (AWS Textract, AWS Bedrock Data Automation, Unstructured) need an account to be set up in the corresponding services and some configuration. See each script for details. Note that, for each service, some environmental variables should be defined in an .env file (see example.env).    
+1. Copy the template: `cp example.env .env`
+2. Fill in the values for the services you plan to use.
 
+Note that pre-existing environmental variables override values in `.env`. 
 
-xxx add warning about no responsibility of using these scripts xxx 
+**AWS Textract and Bedrock Data Automation** require an AWS account, an S3 bucket/prefix for uploads, and IAM permissions for the relevant APIs. 
+BDA also needs a pre-configured [Data Automation project](https://docs.aws.amazon.com/bedrock/latest/userguide/bda.html) ARN.
 
-xxx add license xxx 
+**Unstructured** requires a [Transform API](https://docs.unstructured.io/) account and API key.
+
+## Running the scripts
+
+All scripts take a PDF path as the first argument and write output under a tool-specific directory. Run `python <script> --help` for full options.
+
+Example:
+
+```bash
+python extract_tables_pdfplumber.py \
+  "test_pdfs/frostbite_financial_statement/frostbite_creamery_annual_financial_statement (full grid).pdf"
+```
+
+## Disclaimer
+
+This repository is provided as-is for educational and research purposes. The authors make no warranties and accept no liability for use of these scripts or sample data. Use at your own risk.
+
+## License
+
+Licensed under the MIT License — see [LICENSE](LICENSE).
