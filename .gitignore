@@ -47,16 +47,14 @@ dmypy.json
 *.swp
 .DS_Store
 
-# Extraction outputs
-bda_output/
-textract_output/
-text_output/
-claude_chat_output/
-pdfplumber_output/
-pymupdf_output/
-pymupdf4llm_output/
-unstructured_output/
-docling_output/
+# Extraction outputs (root only; blog_output/ copies are tracked)
+/bda_output/
+/textract_output/
+/pdfplumber_output/
+/pymupdf_output/
+/pymupdf4llm_output/
+/unstructured_output/
+/docling_output/
 
 # PDFs in the project root
 /*.pdf

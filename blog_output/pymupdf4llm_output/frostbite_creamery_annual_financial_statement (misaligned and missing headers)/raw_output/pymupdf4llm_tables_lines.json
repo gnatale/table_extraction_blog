@@ -1,0 +1,127 @@
+[
+  {
+    "table_index": 1,
+    "page": 1,
+    "strategy": "lines",
+    "bbox": [
+      87.72093200683594,
+      90.12092590332031,
+      597.0802612304688,
+      630.6010131835938
+    ],
+    "rows": [
+      [
+        "Description",
+        "FY 2023"
+      ],
+      [
+        "Wholesale revenue",
+        "15210526\n14476818"
+      ],
+      [
+        "Company store revenue",
+        "3063158\n2877543"
+      ],
+      [
+        "E-commerce and subscription sales",
+        "3063157\n2910339"
+      ],
+      [
+        "Premium pint and novelty sales",
+        "12252632\n11524851"
+      ],
+      [
+        "Private label and co-packing",
+        "5309474\n5015997"
+      ],
+      [
+        "Export and licensing revenue",
+        "961054\n929844"
+      ],
+      [
+        "Total revenue",
+        "48500001\n45925392"
+      ],
+      [
+        "Dairy and sweetener ingredients",
+        "10261112\n9885543"
+      ],
+      [
+        "Flavorings and inclusions",
+        "3592593\n3448215"
+      ],
+      [
+        "Packaging materials",
+        "4311111\n4063625"
+      ],
+      [
+        "Direct labor and overtime",
+        "5748148\n5492444"
+      ],
+      [
+        "Utilities freight and maintenance",
+        "4217035\n4040718"
+      ],
+      [
+        "Total cost of goods sold",
+        "28129999\n26930545"
+      ],
+      [
+        "Gross profit",
+        "20370002\n18994847"
+      ],
+      [
+        "Sales and marketing",
+        "3203053\n3011749"
+      ],
+      [
+        "Distribution and warehousing",
+        "2515236\n2379345"
+      ],
+      [
+        "General and administrative",
+        "3405321\n3225751"
+      ],
+      [
+        "Insurance benefits and payroll taxes",
+        "1489390\n1418618"
+      ],
+      [
+        "Depreciation and amortization",
+        "1663446\n1565333"
+      ],
+      [
+        "Research and development and other",
+        "353951\n335593"
+      ],
+      [
+        "Total operating expenses",
+        "12629397\n11955389"
+      ],
+      [
+        "Operating income",
+        "7740605\n7039458"
+      ],
+      [
+        "Other income",
+        "349999\n329111"
+      ],
+      [
+        "Maintenance and interest expense",
+        "629999\n594573"
+      ],
+      [
+        "Income before income taxes",
+        "7460605\n6769996"
+      ],
+      [
+        "Income tax expense",
+        "1790545\n1624799"
+      ],
+      [
+        "Net income",
+        "5670060\n5145197"
+      ]
+    ]
+  }
+]

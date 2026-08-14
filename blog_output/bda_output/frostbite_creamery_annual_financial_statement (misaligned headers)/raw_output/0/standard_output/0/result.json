@@ -1,0 +1,88 @@
+{
+    "metadata": {
+        "asset_id": "0",
+        "logical_subdocument_id": "0",
+        "semantic_modality": "DOCUMENT",
+        "s3_bucket": "test-files-011993210965-eu-central-1-an",
+        "s3_key": "bda-uploads/b56a4a6d-3da6-497a-8f45-593865e9aaa7.pdf",
+        "number_of_pages": 1,
+        "start_page_index": 0,
+        "end_page_index": 0,
+        "file_type": "PDF"
+    },
+    "document": {
+        "statistics": {
+            "element_count": 2,
+            "table_count": 1,
+            "figure_count": 0,
+            "hyperlink_count": 0
+        }
+    },
+    "pages": [
+        {
+            "id": "11ac25fb-9551-4479-a30a-352403c3c42e",
+            "page_index": 0,
+            "representation": {
+                "markdown": "| Description                          | FY 2024 FY 2023   | FY 2024 FY 2023   |\n|--------------------------------------|-------------------|-------------------|\n| Wholesale revenue                    | 15210526          | 14476818          |\n| Company store revenue                | 3063158           | 2877543           |\n| E-commerce and subscription sales    | 3063157           | 2910339           |\n| Premium pint and novelty sales       | 12252632          | 11524851          |\n| Private label and co-packing         | 5309474           | 5015997           |\n| Export and licensing revenue         | 961054            | 929844            |\n| Total revenue                        | 48500001          | 45925392          |\n| Dairy and sweetener ingredients      | 10261112          | 9885543           |\n| Flavorings and inclusions            | 3592593           | 3448215           |\n| Packaging materials                  | 4311111           | 4063625           |\n| Direct labor and overtime            | 5748148           | 5492444           |\n| Utilities freight and maintenance    | 4217035           | 4040718           |\n| Total cost of goods sold             | 28129999          | 26930545          |\n| Gross profit                         | 20370002          | 18994847          |\n| Sales and marketing                  | 3203053           | 3011749           |\n| Distribution and warehousing         | 2515236           | 2379345           |\n| General and administrative           | 3405321           | 3225751           |\n| Insurance benefits and payroll taxes | 1489390           | 1418618           |\n| Depreciation and amortization        | 1663446           | 1565333           |\n| Research and development and other   | 353951            | 335593            |\n| Total operating expenses             | 12629397          | 11955389          |\n| Operating income                     | 7740605           | 7039458           |\n| Other income                         | 349999            | 329111            |\n| Maintenance and interest expense     | 629999            | 594573            |\n| Income before income taxes           | 7460605           | 6769996           |\n| Income tax expense                   | 1790545           | 1624799           |\n| Net income                           | 5670060           | 5145197           |\n\n1"
+            },
+            "statistics": {
+                "element_count": 2,
+                "table_count": 1,
+                "figure_count": 0,
+                "hyperlink_count": 0
+            },
+            "asset_metadata": {
+                "rectified_image_width_pixels": 2882,
+                "rectified_image_height_pixels": 4078,
+                "corners": [
+                    [
+                        -1.2876523437597617e-06,
+                        -3.714568330306988e-07
+                    ],
+                    [
+                        1.0000197379478226,
+                        -1.2566763216428245e-08
+                    ],
+                    [
+                        1.0,
+                        0.9999959299920324
+                    ],
+                    [
+                        -4.721274979943817e-08,
+                        0.9999838995273045
+                    ]
+                ]
+            }
+        }
+    ],
+    "elements": [
+        {
+            "id": "5246b88f-36f3-4431-9f38-7c6dce6b22df",
+            "reading_order": 0,
+            "type": "TABLE",
+            "representation": {
+                "markdown": "| Description                          | FY 2024 FY 2023   | FY 2024 FY 2023   |\n|--------------------------------------|-------------------|-------------------|\n| Wholesale revenue                    | 15210526          | 14476818          |\n| Company store revenue                | 3063158           | 2877543           |\n| E-commerce and subscription sales    | 3063157           | 2910339           |\n| Premium pint and novelty sales       | 12252632          | 11524851          |\n| Private label and co-packing         | 5309474           | 5015997           |\n| Export and licensing revenue         | 961054            | 929844            |\n| Total revenue                        | 48500001          | 45925392          |\n| Dairy and sweetener ingredients      | 10261112          | 9885543           |\n| Flavorings and inclusions            | 3592593           | 3448215           |\n| Packaging materials                  | 4311111           | 4063625           |\n| Direct labor and overtime            | 5748148           | 5492444           |\n| Utilities freight and maintenance    | 4217035           | 4040718           |\n| Total cost of goods sold             | 28129999          | 26930545          |\n| Gross profit                         | 20370002          | 18994847          |\n| Sales and marketing                  | 3203053           | 3011749           |\n| Distribution and warehousing         | 2515236           | 2379345           |\n| General and administrative           | 3405321           | 3225751           |\n| Insurance benefits and payroll taxes | 1489390           | 1418618           |\n| Depreciation and amortization        | 1663446           | 1565333           |\n| Research and development and other   | 353951            | 335593            |\n| Total operating expenses             | 12629397          | 11955389          |\n| Operating income                     | 7740605           | 7039458           |\n| Other income                         | 349999            | 329111            |\n| Maintenance and interest expense     | 629999            | 594573            |\n| Income before income taxes           | 7460605           | 6769996           |\n| Income tax expense                   | 1790545           | 1624799           |\n| Net income                           | 5670060           | 5145197           |",
+                "csv": ",Description,FY 2024 FY 2023,FY 2024 FY 2023\n0,Wholesale revenue,15210526,14476818\n1,Company store revenue,3063158,2877543\n2,E-commerce and subscription sales,3063157,2910339\n3,Premium pint and novelty sales,12252632,11524851\n4,Private label and co-packing,5309474,5015997\n5,Export and licensing revenue,961054,929844\n6,Total revenue,48500001,45925392\n7,Dairy and sweetener ingredients,10261112,9885543\n8,Flavorings and inclusions,3592593,3448215\n9,Packaging materials,4311111,4063625\n10,Direct labor and overtime,5748148,5492444\n11,Utilities freight and maintenance,4217035,4040718\n12,Total cost of goods sold,28129999,26930545\n13,Gross profit,20370002,18994847\n14,Sales and marketing,3203053,3011749\n15,Distribution and warehousing,2515236,2379345\n16,General and administrative,3405321,3225751\n17,Insurance benefits and payroll taxes,1489390,1418618\n18,Depreciation and amortization,1663446,1565333\n19,Research and development and other,353951,335593\n20,Total operating expenses,12629397,11955389\n21,Operating income,7740605,7039458\n22,Other income,349999,329111\n23,Maintenance and interest expense,629999,594573\n24,Income before income taxes,7460605,6769996\n25,Income tax expense,1790545,1624799\n26,Net income,5670060,5145197"
+            },
+            "title": "",
+            "footers": [],
+            "headers": [
+                "Description",
+                "FY 2024 FY 2023",
+                "FY 2024 FY 2023"
+            ]
+        },
+        {
+            "type": "TEXT",
+            "id": "7552467c-2246-4d02-ac77-45ae95eadc5c",
+            "reading_order": 1,
+            "page_indices": [
+                0
+            ],
+            "representation": {
+                "markdown": "1"
+            },
+            "sub_type": "PAGE_NUMBER"
+        }
+    ]
+}
