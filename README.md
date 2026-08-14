@@ -6,6 +6,8 @@ xxx add links xxx
 
 You can use it to reproduce the same results shown in the blogs. 
 
+The table extraction output I obtained by running the script on my pc are in the blog_output folder. 
+
 ## Requirements 
 
 - python 3.12 (this is the version I used. The code may work with older/newer versions)
