@@ -2,7 +2,9 @@
 
 Companion repository for blog posts on PDF table extraction. It includes sample PDFs, ground-truth spreadsheets, and scripts to reproduce the results discussed in the articles.
 
-**Blog posts:** links coming soon.
+**Blog posts:**
+
+Why PDF table extraction fails - part I: https://gionatale.substack.com/p/why-pdf-table-extraction-fails-part
 
 ## Repository layout
 
